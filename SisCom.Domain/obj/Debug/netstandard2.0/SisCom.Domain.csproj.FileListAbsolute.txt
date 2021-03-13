@@ -1,8 +1,0 @@
-C:\Projetos\SisCom\SisCom.Domain\bin\Debug\netstandard2.0\SisCom.Domain.deps.json
-C:\Projetos\SisCom\SisCom.Domain\bin\Debug\netstandard2.0\SisCom.Domain.dll
-C:\Projetos\SisCom\SisCom.Domain\obj\Debug\netstandard2.0\SisCom.Domain.AssemblyInfoInputs.cache
-C:\Projetos\SisCom\SisCom.Domain\obj\Debug\netstandard2.0\SisCom.Domain.AssemblyInfo.cs
-C:\Projetos\SisCom\SisCom.Domain\bin\Debug\netstandard2.0\SisCom.Domain.pdb
-C:\Projetos\SisCom\SisCom.Domain\obj\Debug\netstandard2.0\SisCom.Domain.csproj.CoreCompileInputs.cache
-C:\Projetos\SisCom\SisCom.Domain\obj\Debug\netstandard2.0\SisCom.Domain.dll
-C:\Projetos\SisCom\SisCom.Domain\obj\Debug\netstandard2.0\SisCom.Domain.pdb
