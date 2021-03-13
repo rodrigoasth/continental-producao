@@ -1,12 +1,12 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using SisCom.Application.Produtos.Command.CriarProduto;
-using SisCom.Application.Produtos.Query.ListarTodos;
-using SisCom.Application.Produtos.Query.ObterProduto;
+using Continental.Producao.Application.Produtos.Command.CriarProduto;
+using Continental.Producao.Application.Produtos.Query.ListarTodos;
+using Continental.Producao.Application.Produtos.Query.ObterProduto;
 using System;
 using System.Threading.Tasks;
 
-namespace SisCom.API.Produtos
+namespace Continental.Producao.API.Produtos
 {
     public class ProdutoController : ControllerBase
     {

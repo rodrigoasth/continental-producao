@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aulGPEw1sQF6kdDEmaAndQN1/HgkUk/2+82I+7aRDHRVojkE8ApFX/IgDNquCgtdAKJKLv1ai33Vj+U/RkR7jw==",
+  "dgSpecHash": "KkeGtEXwaYhGQzPItJfxryC6aLk2laP6LWl1IiSHt7Zo9Y3EcxOkXTu/pgmTNIE0IZIvhxQzcSc5EvOCmqq6SQ==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\SisCom\\SisCom.Domain\\SisCom.Domain.csproj",
+  "projectFilePath": "C:\\Projetos\\continental-producao\\SisCom.Domain\\Continental.Producao.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rodri\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
   ],

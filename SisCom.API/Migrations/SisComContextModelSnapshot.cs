@@ -3,11 +3,11 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using SisCom.Infra.Data;
+using Continental.Producao.Infra.Data;
 
 namespace SisCom.API.Migrations
 {
-    [DbContext(typeof(SisComContext))]
+    [DbContext(typeof(ProducaoContext))]
     partial class SisComContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

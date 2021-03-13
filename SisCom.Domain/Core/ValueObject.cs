@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace SisCom.Domain.Core
+namespace Continental.Producao.Domain.Core
 {
     public abstract class ValueObject<T> where T : ValueObject<T>
     {

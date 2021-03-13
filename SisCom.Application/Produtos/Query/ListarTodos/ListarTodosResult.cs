@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SisCom.Application.Produtos.Query.ListarTodos
+namespace Continental.Producao.Application.Produtos.Query.ListarTodos
 {
     public class ListarTodosResult
     {

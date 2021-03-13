@@ -6,13 +6,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using SisCom.Domain.Produtos;
-using SisCom.Infra.Data;
-using SisCom.Infra.Data.Produtos;
-using SisCom.Infra.Data.UoW;
+using Continental.Producao.Domain.Produtos;
+using Continental.Producao.Infra.Data;
+using Continental.Producao.Infra.Data.Produtos;
+using Continental.Producao.Infra.Data.UoW;
 using System;
 
-namespace SisCom.API
+namespace Continental.Producao.API
 {
     public class Startup
     {
@@ -27,18 +27,18 @@ namespace SisCom.API
         {
             services.AddControllers();
 
-            var assembly = AppDomain.CurrentDomain.Load("SisCom.Application");
+            var assembly = AppDomain.CurrentDomain.Load("Continental.Producao.Application");
             services.AddMediatR(assembly);
             services.AddAutoMapper(assembly);
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
-            services.AddScoped<ISisComReadContext, SisComReadContext>();
+            services.AddScoped<IProducaoReadContext, ProducaoReadContext>();
 
-            services.AddDbContext<SisComContext>(option=> option
+            services.AddDbContext<ProducaoContext>(option=> option
                                 .UseSqlite(Configuration
                                             .GetConnectionString("DefaultConnection"), 
-                                            o=> o.MigrationsAssembly("SisCom.API")));
+                                            o=> o.MigrationsAssembly("Continental.Producao.API")));
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -55,7 +55,7 @@ namespace SisCom.API
                 endpoints.MapControllers();
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("SisCom API funcionando!");
+                    await context.Response.WriteAsync("Api da 'Continental.Producao' funcionando!");
                 });
             });
         }

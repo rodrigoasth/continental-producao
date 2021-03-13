@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using SisCom.Infra.Data;
+using Continental.Producao.Infra.Data;
 
-namespace SisCom.API.Migrations
+namespace Continental.Producao.API.Migrations
 {
-    [DbContext(typeof(SisComContext))]
+    [DbContext(typeof(ProducaoContext))]
     [Migration("20210312032236_Init")]
     partial class Init
     {

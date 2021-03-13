@@ -1,15 +1,15 @@
-﻿using SisCom.Domain.Produtos;
+﻿using Continental.Producao.Domain.Produtos;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SisCom.Infra.Data.Produtos
+namespace Continental.Producao.Infra.Data.Produtos
 {
     public class ProdutoRepository : IProdutoRepository
     {
-        private readonly SisComContext _context;
+        private readonly ProducaoContext _context;
 
-        public ProdutoRepository(SisComContext context)
+        public ProdutoRepository(ProducaoContext context)
         {
             this._context = context;
         }

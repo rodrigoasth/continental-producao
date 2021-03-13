@@ -2,13 +2,13 @@
 using Microsoft.Extensions.Configuration;
 using System.Data.Common;
 
-namespace SisCom.Infra.Data
+namespace Continental.Producao.Infra.Data
 {
-    public class SisComReadContext : ISisComReadContext
+    public class ProducaoReadContext : IProducaoReadContext
     {
         public IConfiguration Configuration { get; }
 
-        public SisComReadContext(IConfiguration configuration)
+        public ProducaoReadContext(IConfiguration configuration)
         {
             Configuration = configuration;
         }

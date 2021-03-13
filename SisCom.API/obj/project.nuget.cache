@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ta4FuFN/04GPmlmNLfrcsMx97Ympzhqv4gsW6ZN7UD9xzZDnPFJka20WDmgvI24bYTf2GBLdCR7eC7QL8mGxrg==",
+  "dgSpecHash": "YmcJuTDo1upgeVQhvNf0oR+cD+1oo2TBgrAAT3oYye+0xgahFrt+K7b6k1PpyeeLgHfoZGkchNMYH5RdRiFSVA==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\SisCom\\SisCom.API\\SisCom.API.csproj",
+  "projectFilePath": "C:\\Projetos\\continental-producao\\SisCom.API\\Continental.Producao.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rodri\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\rodri\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

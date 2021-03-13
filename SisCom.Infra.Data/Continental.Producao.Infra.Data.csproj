@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SisCom.Domain\SisCom.Domain.csproj" />
+    <ProjectReference Include="..\SisCom.Domain\Continental.Producao.Domain.csproj" />
   </ItemGroup>
 
 </Project>

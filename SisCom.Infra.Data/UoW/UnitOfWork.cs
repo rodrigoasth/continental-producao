@@ -1,12 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore.Storage;
 
-namespace SisCom.Infra.Data.UoW
+namespace Continental.Producao.Infra.Data.UoW
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private readonly SisComContext _db;
+        private readonly ProducaoContext _db;
 
-        public UnitOfWork(SisComContext db)
+        public UnitOfWork(ProducaoContext db)
         {
             this._db = db;
         }

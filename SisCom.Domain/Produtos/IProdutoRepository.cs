@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace SisCom.Domain.Produtos
+namespace Continental.Producao.Domain.Produtos
 {
     public interface IProdutoRepository
     {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V8EvSNFwSppKebpT8H74xDJvC259FrL44wMqWn4pX/LSlIlTGpRME3QMvEaBGiCWw9rUOQYe/qVtJatV/n4d6w==",
+  "dgSpecHash": "zV98snAya4++wAQEJhWOobhhcr5LB2yAOKsNHlBseuzzOUVMNigpAOqgPs1BMT1yIEjgblNUWtzacZW0j7/8BQ==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\SisCom\\SisCom.Domain.Test\\SisCom.Domain.Test.csproj",
+  "projectFilePath": "C:\\Projetos\\continental-producao\\SisCom.Domain.Test\\Continental.Producao.Domain.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rodri\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\rodri\\.nuget\\packages\\microsoft.codecoverage\\16.2.0\\microsoft.codecoverage.16.2.0.nupkg.sha512",

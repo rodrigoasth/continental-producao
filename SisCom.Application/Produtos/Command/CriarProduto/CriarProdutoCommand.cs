@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SisCom.Application.Produtos.Command.CriarProduto
+namespace Continental.Producao.Application.Produtos.Command.CriarProduto
 {
     public class CriarProdutoCommand : IRequest<bool>
     {

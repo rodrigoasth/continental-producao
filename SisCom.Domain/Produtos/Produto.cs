@@ -1,9 +1,9 @@
-﻿using SisCom.Domain.Core;
+﻿using Continental.Producao.Domain.Core;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SisCom.Domain.Produtos
+namespace Continental.Producao.Domain.Produtos
 {
     public class Produto : Entity<Guid>, IAggregateRoot
     {

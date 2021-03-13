@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace SisCom.Domain.Core
+namespace Continental.Producao.Domain.Core
 {
     public abstract class Entity<T>
     {

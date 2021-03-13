@@ -1,16 +1,16 @@
 ﻿using Dapper;
 using MediatR;
-using SisCom.Infra.Data;
+using Continental.Producao.Infra.Data;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace SisCom.Application.Produtos.Query.ObterProduto
+namespace Continental.Producao.Application.Produtos.Query.ObterProduto
 {
     public class ObterProdutoQueryHandler : IRequestHandler<ObterProdutoQuery, ObterProdutoResult>
     {
-        private readonly ISisComReadContext _db;
+        private readonly IProducaoReadContext _db;
 
-        public ObterProdutoQueryHandler(ISisComReadContext db)
+        public ObterProdutoQueryHandler(IProducaoReadContext db)
         {
             this._db = db;
         }

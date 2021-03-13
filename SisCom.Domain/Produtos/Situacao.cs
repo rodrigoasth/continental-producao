@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SisCom.Domain.Produtos
+namespace Continental.Producao.Domain.Produtos
 {
     public enum Situacao
     {

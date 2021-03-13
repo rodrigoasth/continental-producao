@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Storage;
 using System;
 
-namespace SisCom.Infra.Data.UoW
+namespace Continental.Producao.Infra.Data.UoW
 {
     public interface IUnitOfWork : IDisposable
     {

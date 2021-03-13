@@ -16,8 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SisCom.Application\SisCom.Application.csproj" />
-    <ProjectReference Include="..\SisCom.Infra.Data\SisCom.Infra.Data.csproj" />
+    <ProjectReference Include="..\SisCom.Application\Continental.Producao.Application.csproj" />
+    <ProjectReference Include="..\SisCom.Infra.Data\Continental.Producao.Infra.Data.csproj" />
   </ItemGroup>
 
 </Project>

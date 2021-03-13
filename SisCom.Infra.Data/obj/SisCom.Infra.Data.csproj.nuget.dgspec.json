@@ -4,12 +4,12 @@
     "C:\\Projetos\\SisCom\\SisCom.Infra.Data\\SisCom.Infra.Data.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\SisCom\\SisCom.Domain\\SisCom.Domain.csproj": {
+    "C:\\Projetos\\SisCom\\SisCom.Domain\\Continental.Producao.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\SisCom\\SisCom.Domain\\SisCom.Domain.csproj",
-        "projectName": "SisCom.Domain",
-        "projectPath": "C:\\Projetos\\SisCom\\SisCom.Domain\\SisCom.Domain.csproj",
+        "projectUniqueName": "C:\\Projetos\\SisCom\\SisCom.Domain\\Continental.Producao.Domain.csproj",
+        "projectName": "Continental.Producao.Domain",
+        "projectPath": "C:\\Projetos\\SisCom\\SisCom.Domain\\Continental.Producao.Domain.csproj",
         "packagesPath": "C:\\Users\\rodri\\.nuget\\packages\\",
         "outputPath": "C:\\Projetos\\SisCom\\SisCom.Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -89,8 +89,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Projetos\\SisCom\\SisCom.Domain\\SisCom.Domain.csproj": {
-                "projectPath": "C:\\Projetos\\SisCom\\SisCom.Domain\\SisCom.Domain.csproj"
+              "C:\\Projetos\\SisCom\\SisCom.Domain\\Continental.Producao.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\SisCom\\SisCom.Domain\\Continental.Producao.Domain.csproj"
               }
             }
           }

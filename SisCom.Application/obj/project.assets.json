@@ -514,32 +514,32 @@
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
       },
-      "SisCom.Domain/1.0.0": {
+      "Continental.Producao.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "MediatR": "9.0.0"
         },
         "compile": {
-          "bin/placeholder/SisCom.Domain.dll": {}
+          "bin/placeholder/Continental.Producao.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SisCom.Domain.dll": {}
+          "bin/placeholder/Continental.Producao.Domain.dll": {}
         }
       },
-      "SisCom.Infra.Data/1.0.0": {
+      "Continental.Producao.Infra.Data/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
+          "Continental.Producao.Domain": "1.0.0",
           "Dapper": "2.0.78",
-          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.4",
-          "SisCom.Domain": "1.0.0"
+          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.4"
         },
         "compile": {
-          "bin/placeholder/SisCom.Infra.Data.dll": {}
+          "bin/placeholder/Continental.Producao.Infra.Data.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SisCom.Infra.Data.dll": {}
+          "bin/placeholder/Continental.Producao.Infra.Data.dll": {}
         }
       }
     }
@@ -1568,23 +1568,23 @@
         "version.txt"
       ]
     },
-    "SisCom.Domain/1.0.0": {
+    "Continental.Producao.Domain/1.0.0": {
       "type": "project",
-      "path": "../SisCom.Domain/SisCom.Domain.csproj",
-      "msbuildProject": "../SisCom.Domain/SisCom.Domain.csproj"
+      "path": "../SisCom.Domain/Continental.Producao.Domain.csproj",
+      "msbuildProject": "../SisCom.Domain/Continental.Producao.Domain.csproj"
     },
-    "SisCom.Infra.Data/1.0.0": {
+    "Continental.Producao.Infra.Data/1.0.0": {
       "type": "project",
-      "path": "../SisCom.Infra.Data/SisCom.Infra.Data.csproj",
-      "msbuildProject": "../SisCom.Infra.Data/SisCom.Infra.Data.csproj"
+      "path": "../SisCom.Infra.Data/Continental.Producao.Infra.Data.csproj",
+      "msbuildProject": "../SisCom.Infra.Data/Continental.Producao.Infra.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
       "AutoMapper >= 10.1.1",
-      "MediatR >= 9.0.0",
-      "SisCom.Domain >= 1.0.0",
-      "SisCom.Infra.Data >= 1.0.0"
+      "Continental.Producao.Domain >= 1.0.0",
+      "Continental.Producao.Infra.Data >= 1.0.0",
+      "MediatR >= 9.0.0"
     ]
   },
   "packageFolders": {
@@ -1594,11 +1594,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\SisCom\\SisCom.Application\\SisCom.Application.csproj",
-      "projectName": "SisCom.Application",
-      "projectPath": "C:\\Projetos\\SisCom\\SisCom.Application\\SisCom.Application.csproj",
+      "projectUniqueName": "C:\\Projetos\\continental-producao\\SisCom.Application\\Continental.Producao.Application.csproj",
+      "projectName": "Continental.Producao.Application",
+      "projectPath": "C:\\Projetos\\continental-producao\\SisCom.Application\\Continental.Producao.Application.csproj",
       "packagesPath": "C:\\Users\\rodri\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\SisCom\\SisCom.Application\\obj\\",
+      "outputPath": "C:\\Projetos\\continental-producao\\SisCom.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1616,11 +1616,11 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Projetos\\SisCom\\SisCom.Domain\\SisCom.Domain.csproj": {
-              "projectPath": "C:\\Projetos\\SisCom\\SisCom.Domain\\SisCom.Domain.csproj"
+            "C:\\Projetos\\continental-producao\\SisCom.Domain\\Continental.Producao.Domain.csproj": {
+              "projectPath": "C:\\Projetos\\continental-producao\\SisCom.Domain\\Continental.Producao.Domain.csproj"
             },
-            "C:\\Projetos\\SisCom\\SisCom.Infra.Data\\SisCom.Infra.Data.csproj": {
-              "projectPath": "C:\\Projetos\\SisCom\\SisCom.Infra.Data\\SisCom.Infra.Data.csproj"
+            "C:\\Projetos\\continental-producao\\SisCom.Infra.Data\\Continental.Producao.Infra.Data.csproj": {
+              "projectPath": "C:\\Projetos\\continental-producao\\SisCom.Infra.Data\\Continental.Producao.Infra.Data.csproj"
             }
           }
         }

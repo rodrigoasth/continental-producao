@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace SisCom.API.Migrations
+namespace Continental.Producao.API.Migrations
 {
     public partial class Init : Migration
     {

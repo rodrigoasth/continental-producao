@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using SisCom.Domain.Produtos;
+using Continental.Producao.Domain.Produtos;
 
-namespace SisCom.Infra.Data.Produtos
+namespace Continental.Producao.Infra.Data.Produtos
 {
     public class ProdutoConfiguration : IEntityTypeConfiguration<Produto>
     {

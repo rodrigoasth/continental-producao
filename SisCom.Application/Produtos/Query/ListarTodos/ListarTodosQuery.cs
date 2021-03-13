@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using System.Collections.Generic;
 
-namespace SisCom.Application.Produtos.Query.ListarTodos
+namespace Continental.Producao.Application.Produtos.Query.ListarTodos
 {
     public class ListarTodosQuery : IRequest<IEnumerable<ListarTodosResult>>
     {

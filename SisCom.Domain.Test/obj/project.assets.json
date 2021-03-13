@@ -6523,11 +6523,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\SisCom\\SisCom.Domain.Test\\SisCom.Domain.Test.csproj",
-      "projectName": "SisCom.Domain.Test",
-      "projectPath": "C:\\Projetos\\SisCom\\SisCom.Domain.Test\\SisCom.Domain.Test.csproj",
+      "projectUniqueName": "C:\\Projetos\\continental-producao\\SisCom.Domain.Test\\Continental.Producao.Domain.Test.csproj",
+      "projectName": "Continental.Producao.Domain.Test",
+      "projectPath": "C:\\Projetos\\continental-producao\\SisCom.Domain.Test\\Continental.Producao.Domain.Test.csproj",
       "packagesPath": "C:\\Users\\rodri\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\SisCom\\SisCom.Domain.Test\\obj\\",
+      "outputPath": "C:\\Projetos\\continental-producao\\SisCom.Domain.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

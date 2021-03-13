@@ -45,11 +45,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\SisCom\\SisCom.Domain\\SisCom.Domain.csproj",
-      "projectName": "SisCom.Domain",
-      "projectPath": "C:\\Projetos\\SisCom\\SisCom.Domain\\SisCom.Domain.csproj",
+      "projectUniqueName": "C:\\Projetos\\continental-producao\\SisCom.Domain\\Continental.Producao.Domain.csproj",
+      "projectName": "Continental.Producao.Domain",
+      "projectPath": "C:\\Projetos\\continental-producao\\SisCom.Domain\\Continental.Producao.Domain.csproj",
       "packagesPath": "C:\\Users\\rodri\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\SisCom\\SisCom.Domain\\obj\\",
+      "outputPath": "C:\\Projetos\\continental-producao\\SisCom.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

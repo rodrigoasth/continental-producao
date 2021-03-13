@@ -10,8 +10,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SisCom.Domain\SisCom.Domain.csproj" />
-    <ProjectReference Include="..\SisCom.Infra.Data\SisCom.Infra.Data.csproj" />
+    <ProjectReference Include="..\SisCom.Domain\Continental.Producao.Domain.csproj" />
+    <ProjectReference Include="..\SisCom.Infra.Data\Continental.Producao.Infra.Data.csproj" />
   </ItemGroup>
 
 </Project>

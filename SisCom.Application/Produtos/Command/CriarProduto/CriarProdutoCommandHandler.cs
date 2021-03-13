@@ -1,10 +1,10 @@
 ﻿using MediatR;
-using SisCom.Domain.Produtos;
-using SisCom.Infra.Data.UoW;
+using Continental.Producao.Domain.Produtos;
+using Continental.Producao.Infra.Data.UoW;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace SisCom.Application.Produtos.Command.CriarProduto
+namespace Continental.Producao.Application.Produtos.Command.CriarProduto
 {
     public class CriarProdutoCommandHandler : IRequestHandler<CriarProdutoCommand, bool>
     {

@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using System;
 
-namespace SisCom.Domain.Core
+namespace Continental.Producao.Domain.Core
 {
     public class Event : INotification
     {

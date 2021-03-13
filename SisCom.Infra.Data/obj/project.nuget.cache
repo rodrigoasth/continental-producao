@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GSn8hFHgciX3K6WyW3wA0urADc2nfCiErx+MBJepCW+cKVfjmCXOkv5RQrr0VEgtFI9x6/QdiGp9CYkwz2qrbQ==",
+  "dgSpecHash": "O8BI6lw2Qb6b79yWKoFzPEXrsakbkFQGvqiEyUBe+uS21oZqBPv46eooDkKzovYVoDaSAjnfjScVj6d+AjySBQ==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\SisCom\\SisCom.Infra.Data\\SisCom.Infra.Data.csproj",
+  "projectFilePath": "C:\\Projetos\\continental-producao\\SisCom.Infra.Data\\Continental.Producao.Infra.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rodri\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
     "C:\\Users\\rodri\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",

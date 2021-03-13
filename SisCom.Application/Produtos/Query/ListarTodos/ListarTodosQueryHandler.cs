@@ -1,17 +1,17 @@
 ﻿using Dapper;
 using MediatR;
-using SisCom.Infra.Data;
+using Continental.Producao.Infra.Data;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace SisCom.Application.Produtos.Query.ListarTodos
+namespace Continental.Producao.Application.Produtos.Query.ListarTodos
 {
     public class ListarTodosQueryHandler : IRequestHandler<ListarTodosQuery, IEnumerable<ListarTodosResult>>
     {
-        private readonly ISisComReadContext _db;
+        private readonly IProducaoReadContext _db;
 
-        public ListarTodosQueryHandler(ISisComReadContext db)
+        public ListarTodosQueryHandler(IProducaoReadContext db)
         {
             this._db = db;
         }

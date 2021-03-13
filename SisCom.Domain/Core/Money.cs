@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SisCom.Domain.Core
+namespace Continental.Producao.Domain.Core
 {
     public class Money : ValueObject<Money>
     {
