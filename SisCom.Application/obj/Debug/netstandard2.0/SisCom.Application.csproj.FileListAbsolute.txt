@@ -1,0 +1,17 @@
+C:\Projetos\SistemaComprasNew\SisCom.Application\bin\Debug\netstandard2.0\SisCom.Application.deps.json
+C:\Projetos\SistemaComprasNew\SisCom.Application\bin\Debug\netstandard2.0\SisCom.Application.dll
+C:\Projetos\SistemaComprasNew\SisCom.Application\obj\Debug\netstandard2.0\SisCom.Application.csprojAssemblyReference.cache
+C:\Projetos\SistemaComprasNew\SisCom.Application\obj\Debug\netstandard2.0\SisCom.Application.AssemblyInfoInputs.cache
+C:\Projetos\SistemaComprasNew\SisCom.Application\obj\Debug\netstandard2.0\SisCom.Application.AssemblyInfo.cs
+C:\Projetos\SisCom\SisCom.Application\bin\Debug\netstandard2.0\SisCom.Application.deps.json
+C:\Projetos\SisCom\SisCom.Application\bin\Debug\netstandard2.0\SisCom.Application.dll
+C:\Projetos\SisCom\SisCom.Application\obj\Debug\netstandard2.0\SisCom.Application.csprojAssemblyReference.cache
+C:\Projetos\SisCom\SisCom.Application\obj\Debug\netstandard2.0\SisCom.Application.AssemblyInfoInputs.cache
+C:\Projetos\SisCom\SisCom.Application\obj\Debug\netstandard2.0\SisCom.Application.AssemblyInfo.cs
+C:\Projetos\SisCom\SisCom.Application\bin\Debug\netstandard2.0\SisCom.Application.pdb
+C:\Projetos\SisCom\SisCom.Application\obj\Debug\netstandard2.0\SisCom.Application.csproj.CoreCompileInputs.cache
+C:\Projetos\SisCom\SisCom.Application\obj\Debug\netstandard2.0\SisCom.Application.dll
+C:\Projetos\SisCom\SisCom.Application\obj\Debug\netstandard2.0\SisCom.Application.pdb
+C:\Projetos\SisCom\SisCom.Application\bin\Debug\netstandard2.0\SisCom.Domain.dll
+C:\Projetos\SisCom\SisCom.Application\bin\Debug\netstandard2.0\SisCom.Domain.pdb
+C:\Projetos\SisCom\SisCom.Application\obj\Debug\netstandard2.0\SisCom.Application.csproj.CopyComplete
