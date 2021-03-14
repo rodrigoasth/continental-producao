@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace Continental.Producao.API.Produtos
 {
+    [Route("api/produtos")]
     public class ProdutoController : ControllerBase
     {
         private readonly IMediator _mediator;
@@ -17,23 +18,22 @@ namespace Continental.Producao.API.Produtos
             this._mediator = mediator;
         }
 
-        [HttpGet, Route("produto/")]
-        public async Task<IActionResult> ObterTodos()
+        [HttpGet]
+        public async Task<IActionResult> ObterTodosAsync()
         {
             var produtos = await _mediator.Send(new ListarTodosQuery());
-
             return Ok(produtos);
         }
 
-        [HttpGet, Route("produto/{id}")]
-        public async Task<IActionResult> ObterProduto(Guid id)
+        [HttpGet, Route("{id}")]
+        public async Task<IActionResult> ObterProdutoAsync(Guid id)
         {
-            var produtos = await _mediator.Send(new ObterProdutoQuery() { Id = id });
-            return Ok(produtos);
+            var produto = await _mediator.Send(new ObterProdutoQuery() { Id = id });
+            return Ok(produto);
         }
 
-        [HttpPost, Route("produto/")]
-        public async Task<IActionResult> Criar([FromBody] CriarProdutoCommand criarProdutoCommand)
+        [HttpPost]
+        public async Task<IActionResult> CriarAsync([FromBody] CriarProdutoCommand criarProdutoCommand)
         {
             await _mediator.Send(criarProdutoCommand);
 

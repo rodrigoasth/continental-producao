@@ -3,10 +3,11 @@ using Continental.Producao.Domain.Produtos;
 using Continental.Producao.Infra.Data.UoW;
 using System.Threading;
 using System.Threading.Tasks;
+using System;
 
 namespace Continental.Producao.Application.Produtos.Command.CriarProduto
 {
-    public class CriarProdutoCommandHandler : IRequestHandler<CriarProdutoCommand, bool>
+    public class CriarProdutoCommandHandler : IRequestHandler<CriarProdutoCommand, Guid>
     {
         private readonly IProdutoRepository _produtoRepository;
         private readonly IUnitOfWork _uow;
@@ -17,14 +18,14 @@ namespace Continental.Producao.Application.Produtos.Command.CriarProduto
             this._uow = uow;
         }
 
-        public async Task<bool> Handle(CriarProdutoCommand p, CancellationToken cancellationToken)
+        public async Task<Guid> Handle(CriarProdutoCommand p, CancellationToken cancellationToken)
         {
             var produto = new Produto(p.Nome, p.Descricao, p.Preco);
             await _produtoRepository.Criar(produto);
 
             _uow.Commit();
 
-            return true;
+            return produto.Id;
         }
     }
 }
