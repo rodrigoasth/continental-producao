@@ -19,7 +19,7 @@ namespace Continental.Producao.API.Produtos
         }
 
         [HttpGet]
-        public async Task<IActionResult> ObterTodosAsync()
+        public async Task<IActionResult> ListarTodosAsync()
         {
             var produtos = await _mediator.Send(new ListarTodosQuery());
             return Ok(produtos);

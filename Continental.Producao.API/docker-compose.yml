@@ -1,0 +1,24 @@
+﻿version: '3'
+
+services:
+  dbproducao:
+    image: continentalproducaodb
+    build:
+      context: ./Db
+    ports:
+      - "5500:5501"
+    networks:
+      - producao-network
+
+  apiproducao:
+    image: continentalproducaoapi:dev
+    depends_on:
+      - db-producao-bc    
+    ports:
+      - "80:8080"
+    networks:
+      - producao-network
+
+networks: 
+  producao-network:
+    driver: bridge
