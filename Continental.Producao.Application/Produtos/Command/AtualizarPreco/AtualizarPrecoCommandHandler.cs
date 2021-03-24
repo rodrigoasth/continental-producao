@@ -20,7 +20,7 @@ namespace Continental.Producao.Application.Produtos.Command.AtualizarPreco
         public Task<bool> Handle(AtualizarPrecoCommand request, CancellationToken cancellationToken)
         {
             var produto = _produtoRepository.Obter(request.Id);
-            produto.AtualizarPreco(request.Preco);
+            produto.AtualizarPreco(request.PrecoUnitario);
             _produtoRepository.Atualizar(produto);
 
             Commit();

@@ -1,4 +1,6 @@
-﻿using Continental.Producao.Application.SolicitacoesCompra.Command.RegistrarCompra;
+﻿using Continental.Producao.Application.SolicitacoesCompra.Command.ExcluirCompra;
+using Continental.Producao.Application.SolicitacoesCompra.Command.RegistrarCompra;
+using Continental.Producao.Application.SolicitacoesCompra.Query.ListarTodos;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -18,7 +20,14 @@ namespace Continental.Producao.API.SolicitacoesCompra
             _mediator = mediator;
         }
 
-        [HttpPost, Route("registra")]
+        [HttpGet]
+        public async Task<IActionResult> ListarTodosAsync()
+        {
+            var solicitacoes = await _mediator.Send(new ListarTodosQuery());
+            return Ok(solicitacoes);
+        }
+
+        [HttpPost]
         public async Task<IActionResult> RegistrarCompra([FromBody]RegistrarCompraCommand registrarCompraCommand)
         {
             await _mediator.Send(registrarCompraCommand);

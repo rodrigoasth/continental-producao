@@ -11,6 +11,8 @@ using Continental.Producao.Infra.Data;
 using Continental.Producao.Infra.Data.Produtos;
 using Continental.Producao.Infra.Data.UoW;
 using System;
+using Continental.Producao.Domain.SolicitacoesCompra;
+using Continental.Producao.Infra.Data.SolicitacoesCompra;
 
 namespace Continental.Producao.API
 {
@@ -33,6 +35,7 @@ namespace Continental.Producao.API
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
+            services.AddScoped<ISolicitacaoCompraRepository, SolicitacaoCompraRepository>();
             services.AddScoped<IProducaoReadContext, ProducaoReadContext>();
 
             services.AddDbContext<ProducaoContext>(option=> option

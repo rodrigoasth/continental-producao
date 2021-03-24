@@ -1,0 +1,216 @@
+{
+	"info": {
+		"_postman_id": "5b4d474d-77a7-4779-8a33-374b80847f53",
+		"name": "Continental - Produção",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Produtos",
+			"item": [
+				{
+					"name": "Listar todos os produtos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/api/produtos/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"produtos",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Criar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\":\"produto5\",\r\n    \"descricao\":\"descricao5\",\r\n    \"preco\":160\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/api/produtos/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"produtos",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obter produto",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/api/produtos/CCC5F9ED-9F13-457C-B09D-DA48B16DC450",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"produtos",
+								"CCC5F9ED-9F13-457C-B09D-DA48B16DC450"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Atualizar preço",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Id\":\"CCC5F9ED-9F13-457C-B09D-DA48B16DC450\",\r\n    \"PrecoUnitario\":200\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/api/produtos/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"produtos",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ativar",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/api/produtos/ativa/CCC5F9ED-9F13-457C-B09D-DA48B16DC450",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"produtos",
+								"ativa",
+								"CCC5F9ED-9F13-457C-B09D-DA48B16DC450"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Suspender",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/api/produtos/suspende/CCC5F9ED-9F13-457C-B09D-DA48B16DC450",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"produtos",
+								"suspende",
+								"CCC5F9ED-9F13-457C-B09D-DA48B16DC450"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Solicitações Compra",
+			"item": [
+				{
+					"name": "Criar solicitação",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"UsuarioSolicitante\":\"rasth\",\r\n    \"NomeFornecedor\":\"MadeiraMade\",\r\n    \"Itens\":[\r\n        {\r\n\t\t\"IdProduto\":\"CCC5F9ED-9F13-457C-B09D-DA48B16DC450\",\r\n\t\t\"Qtde\":30\r\n\t    },\r\n        {\r\n\t\t\"IdProduto\":\"926135C6-8F61-489A-98A8-319AB27CAB54\",\r\n\t\t\"Qtde\":10\r\n\t    }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/api/solicitacoes-compra/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"solicitacoes-compra",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar todos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/api/solicitacoes-compra/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"solicitacoes-compra",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

@@ -3,14 +3,16 @@ using System;
 using Continental.Producao.Infra.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace SisCom.API.Migrations
+namespace Continental.Producao.API.Migrations
 {
     [DbContext(typeof(ProducaoContext))]
-    partial class SisComContextModelSnapshot : ModelSnapshot
+    [Migration("20210324160248_AdicionaSolicitaoCompra")]
+    partial class AdicionaSolicitaoCompra
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

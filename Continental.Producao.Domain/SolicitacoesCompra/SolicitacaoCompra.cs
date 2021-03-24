@@ -21,6 +21,8 @@ namespace Continental.Producao.Domain.SolicitacoesCompra
 
         public SolicitacaoCompra(string usuarioSolicitante, string nomeFornecedor)
         {
+            Itens = new List<Item>();
+
             Id = Guid.NewGuid();
             UsuarioSolicitante = new UsuarioSolicitante(usuarioSolicitante);
             NomeFornecedor = new NomeFornecedor(nomeFornecedor);
@@ -36,8 +38,7 @@ namespace Continental.Producao.Domain.SolicitacoesCompra
 
         public void RegistrarCompra()
         {
-
-            if (Itens.Count == 0) throw new BusinessRuleException("A solicitação de compra deve possuir itens!");
+            if (!Itens.Any()) throw new BusinessRuleException("A solicitação de compra deve possuir itens!");
 
             TotalGeral = new Money(Itens.ToList().Sum(x => x.Subtotal.Value));
 

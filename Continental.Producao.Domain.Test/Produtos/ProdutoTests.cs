@@ -1,8 +1,5 @@
 ﻿using Continental.Producao.Domain.Core;
 using Continental.Producao.Domain.Produtos;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using Xunit;
 
 namespace Continental.Producao.Domain.Test.Produtos
@@ -10,7 +7,7 @@ namespace Continental.Producao.Domain.Test.Produtos
     public class ProdutoTests
     {
         [Fact]
-        public void Atualizar_PrecoDe400_Para500()
+        public void Deve_Atualizar_Preco_De_400_Para_500()
         {
             //Dado
             var produto = new Produto("produto001", "desc", Categoria.Madeira.ToString(), 400);
@@ -23,7 +20,7 @@ namespace Continental.Producao.Domain.Test.Produtos
         }
 
         [Fact]
-        public void Notificar_Erro_Quando_Produto_Esta_Cancelado()
+        public void Deve_Notificar_Erro_Quando_Produto_Esta_Cancelado()
         {
             //Dado
             var produto = new Produto("produto001", "desc", Categoria.Madeira.ToString(), 400);

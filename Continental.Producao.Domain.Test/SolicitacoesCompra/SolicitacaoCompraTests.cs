@@ -11,11 +11,10 @@ namespace Continental.Producao.Domain.Test.SolicitacoesCompra
     public class SolicitacaoCompraTests
     {
         [Fact]
-        public void Definir_Prazo_30_Dias_Ao_Comprar_Mais_50_mil()
+        public void Deve_Definir_Prazo_30_Dias_Ao_Comprar_Mais_50_mil()
         {
             //Dado
             var solicitacao = new SolicitacaoCompra("rodrigoasth", "rodrigoasth");
-            var itens = new List<Item>();
             var produto = new Produto("Cedro", "Transversal 3/3", Categoria.Madeira.ToString(), 1001);
             solicitacao.AdicionarItem(produto, 50);
 
@@ -27,7 +26,7 @@ namespace Continental.Producao.Domain.Test.SolicitacoesCompra
         }
 
         [Fact]
-        public void Notificar_Erro_Quando_Nao_Informar_Itens_Compra()
+        public void Deve_Notificar_Erro_Quando_Nao_Informar_Itens_Compra()
         {
             //Dado
             var solicitacao = new SolicitacaoCompra("rodrigoasth", "rodrigoasth");
