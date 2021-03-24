@@ -7,5 +7,7 @@ namespace Continental.Producao.Domain.Produtos
     {
         Produto Obter(Guid id);
         Task Criar(Produto produto);
+        void Atualizar(Produto entity);
+        void Excluir(Produto entity);
     }
 }

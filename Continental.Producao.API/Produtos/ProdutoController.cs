@@ -5,6 +5,7 @@ using Continental.Producao.Application.Produtos.Query.ListarTodos;
 using Continental.Producao.Application.Produtos.Query.ObterProduto;
 using System;
 using System.Threading.Tasks;
+using Continental.Producao.Application.Produtos.Command.AtualizarPreco;
 
 namespace Continental.Producao.API.Produtos
 {
@@ -38,6 +39,13 @@ namespace Continental.Producao.API.Produtos
             await _mediator.Send(criarProdutoCommand);
 
             return StatusCode(201);
+        }
+
+        [HttpPatch]
+        public async Task<IActionResult> AtualizarPrecoAsync([FromBody] AtualizarPrecoCommand atualizarPrecoCommand)
+        {
+            await _mediator.Send(atualizarPrecoCommand);
+            return Ok();
         }
     }
 }

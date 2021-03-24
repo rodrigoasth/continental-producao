@@ -7,6 +7,6 @@ namespace Continental.Producao.Domain.Produtos
     public enum Situacao
     {
         Ativo = 1,
-        Inativo = 2
+        Suspenso = 2
     }
 }

@@ -23,5 +23,15 @@ namespace Continental.Producao.Infra.Data.Produtos
         {
             return _context.Produtos.Single(x => x.Id == id);
         }
+
+        public void Atualizar(Produto entity)
+        {
+            _context.Set<Produto>().Update(entity);
+        }
+
+        public void Excluir(Produto entity)
+        {
+            _context.Set<Produto>().Remove(entity);
+        }
     }
 }
